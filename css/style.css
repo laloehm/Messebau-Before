@@ -411,7 +411,7 @@ header .list-group-item {
 
 @media (max-width:1199px) {
   .about {
-    height: auto;
+    height: 100%;
   }
 }
 

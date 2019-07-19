@@ -57,16 +57,4 @@ $(document).ready(function () {
         }, 1300)
     }, 1300)
 
-    var cambio = false;
-    $('.navbar a').each(function (index) {
-        if (this.href.trim() == window.location) {
-            $(this).parent().addClass("active");
-            cambio = true;
-        }
-    });
-    if (!cambio) {
-        $('.navbar a:first').addClass("active");
-    }
-
-
 })

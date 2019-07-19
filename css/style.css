@@ -380,7 +380,6 @@ header .list-group-item {
 }
 
 .number p {
-  /* color: #7f8082; */
   font-weight: 900;
   font-family: 'Roboto';
   position: absolute;
@@ -412,6 +411,10 @@ header .list-group-item {
 @media (max-width:1199px) {
   .about {
     height: 100%;
+  }
+
+  .about>.row {
+    height: auto;
   }
 }
 
